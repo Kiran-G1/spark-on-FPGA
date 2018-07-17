@@ -28,8 +28,8 @@ object StreamingTaxi{
   def main(args: Array[String]) {
    
   
-   //sc.hadoopConfiguration.set("fs.s3n.awsAccessKeyId","AKIAJY3KKR5VZK4VKCPQ")
-   //sc.hadoopConfiguration.set("fs.s3n.awsSecretAccessKey","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") // can contain "/"
+   //sc.hadoopConfiguration.set("fs.s3n.awsAccessKeyId","**************")
+   //sc.hadoopConfiguration.set("fs.s3n.awsSecretAccessKey","**********************") // can contain "/"
  
   
     //val data=sc.textFile("s3n://s3.amazonaws.com/nyc-tlc/trip+data/*.csv")
